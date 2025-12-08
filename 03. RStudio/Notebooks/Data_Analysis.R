@@ -175,11 +175,18 @@ library(dplyr)
 
 # 1. Select  -> selecting columns
 select(retail,InvoiceDate,InvoiceNo, CustomerID)
+head(select(retail, -Description))
 
 # 2. Filter -> for row filtering
 filter(retail, Country== "United Kingdom")
+filter(retail, Country== "United Kingdom", Quantity > 1000)
+filter(retail, Country== "United Kingdom" | Country == "France" , Quantity > 10000)
 
-# 3. Mutate
-# 4. Arrange
-# 5. Group by
-# 6. Summary
+# & --> and operator
+# | --> or operator
+
+# 3. Mutate : change | Creating new column or manipulating existing
+
+# 4. Arrange : Sorting
+# 5. Group by : Aggregation
+# 6. Summarize : Aggregation
