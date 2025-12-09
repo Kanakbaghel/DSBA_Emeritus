@@ -184,9 +184,31 @@ filter(retail, Country== "United Kingdom" | Country == "France" , Quantity > 100
 
 # & --> and operator
 # | --> or operator
+temp <- select(retail,InvoiceDate,InvoiceNo, CustomerID, Country, Quantity)
+filter(temp, Country== "United Kingdom" | Country == "France" , Quantity > 10000)
+
+# special pipeline operator : %>%
+select(retail,InvoiceNo, CustomerID, Country, Quantity, UnitPrice) %>% 
+  filter(Country== "United Kingdom" | Country == "France", Quantity > 10000) 
 
 # 3. Mutate : change | Creating new column or manipulating existing
+select(retail,InvoiceDate ,InvoiceNo, CustomerID, Country, Quantity, UnitPrice) %>% 
+  filter(Country== "United Kingdom" | Country == "France" ) %>%
+  mutate(Sales = UnitPrice * Quantity) %>%
+  View()
 
 # 4. Arrange : Sorting
+select(retail,InvoiceDate ,InvoiceNo, CustomerID, Country, Quantity, UnitPrice) %>% 
+  filter(Country== "United Kingdom" | Country == "France" ) %>%
+  mutate(Sales = UnitPrice * Quantity) %>%
+  arrange(desc(Sales)) %>%
+  View()
+
+select(retail,InvoiceDate ,InvoiceNo, CustomerID, Country, Quantity, UnitPrice) %>% 
+  filter(Country== "United Kingdom" | Country == "France" ) %>%
+  mutate(Sales = UnitPrice * Quantity) %>%
+  arrange(Sales) %>%
+  View()
+
 # 5. Group by : Aggregation
 # 6. Summarize : Aggregation
