@@ -1,14 +1,14 @@
 
 <h1 align="center"> DATA SCIENCE LEARNING </h1>
-<p align="center"><em> Postgraduate student at IIT Guwahati via Emeritus, specializing in Data Science, Business Analytics, and Generative AI.</em></p>
+<p align="center"><em> specializing in Data Science, Machine Learning, Business Analytics, and Generative AI.</em></p>
 <p align="center"><em> A collaborative repository to organize notes, resources, and hands-on projects from our Data Science learning path. Built for reproducible learning, peer growth, and profile enhancement.
  </em></p>
 
 ---
+
 ## INTRODUCTION
 
-Welcome to our repository, We are Learners of Postgraduation Programme in Data Science and Business Analytics with Generative AI*  
-*Emeritus @ IIT Guwahati ...!
+Welcome to our repository, This repository is designed to be **beginner-friendly**, with clear examples, reproducible workflows, and step-by-step guidance for anyone starting their journey in **Data Science, Business Analytics, and Generative AI**.
 
 This repository serves as a central hub for our collective learning journey. It is designed to:
 
@@ -50,13 +50,20 @@ Your contributions make this repository valuable! Here’s how you can get invol
 - **Report Issues:** Suggest improvements or report errors.
 - **Collaborate:** Participate in discussions and peer reviews.
 
+ **Fork & Clone** this repo  
+   ```bash
+   git clone https://github.com/your-username/DSBA_Emeritus.git
+   ```
+
 Please follow the repository’s contribution guidelines and maintain professionalism and respect in all interactions.
 
 ---
 
-### Acknowledgments
+## 🌐 Community & Support
+- Join discussions in **Issues** and **Pull Requests**.  
+- Share your learning journey in the repo.  
+- Respect open-source etiquette: be kind, collaborative, and constructive.  
 
-We thank **Emeritus** and **IIT Guwahati** for providing this incredible learning opportunity. Together, we are building not just skills but a community of future-ready data professionals.
 
 ---
 > _" Let’s learn, grow, and innovate — together! "_
