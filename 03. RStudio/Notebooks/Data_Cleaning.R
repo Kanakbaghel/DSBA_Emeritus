@@ -79,4 +79,6 @@ which(duplicated(df))
 duplicated(df, fromLast = TRUE)
 which(duplicated(df, fromLast = TRUE))
 
-# now, considering 
+# now, considering only id column for identifying duplicates
+# name and sex 
+
