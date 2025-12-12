@@ -82,3 +82,34 @@ which(duplicated(df, fromLast = TRUE))
 # now, considering only id column for identifying duplicates
 # name and sex 
 
+duplicated(df[c('name','sex')])
+which(duplicated(df[c('name','sex')]))
+
+duplicate_rows <- which(duplicated(df[c('name','sex')]))
+df[-c(duplicate_rows),]
+df
+
+# for dropping rows
+df[-4,]
+
+# removing duplicate rows
+unique(df)
+
+# adding a column
+df$Country <- c('US','U.S.A','India','China')
+df
+
+# get the unique values from the column
+unique(df$Country)
+
+df$Country <- tolower(df$Country)
+df
+
+# to get frequency
+table(df$Country)
+
+#transform
+df$Country <- sapply(df$Country, 
+       function (Country) {ifelse((Country == "us") || (Country == 'u.s.a'),
+                'us', Country)})
+df
