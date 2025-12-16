@@ -1,3 +1,23 @@
+a few points to remmeber for Mac users:
+1. Please ensure to download the windows iso file correctly.
+
+For ARM chip : https://www.microsoft.com/en-us/software-download/windows11arm64Links to an external site.
+
+For intel chip : https://www.microsoft.com/en-us/software-download/windows11Links to an external site.
+
+2. Additionally,
+
+For installation in mac (ARM - M1/2/3 chip) you may also refer to : https://www.youtube.com/watch?v=uis3pvt4wBU&t=64s
+
+For installation & troubleshooting on intel chip Mac refer as below:
+
+For Installation :  
+https://www.youtube.com/watch?v=5Z_G6QG7xxgLinks to an external site.
+
+
+For internet and driver issue during windows installation: 
+https://www.youtube.com/watch?v=Mfyo36r2G_s&t=114sLinks to an external site.
+ 
 # Power Query documentation
 
 Power Query is a data connection and preparation tool integrated into Microsoft products like Excel, Power BI, and more. It allows users to easily import, transform, and automate data workflows without needing extensive coding.
