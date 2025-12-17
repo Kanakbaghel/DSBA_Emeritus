@@ -309,7 +309,7 @@ where custid = 'A105' and custname = "Michael Smith";
 select * from customerdetails; 
 
 # TCL Commands
-Delete from customerdetails # without where it'll remove all rows
+Delete from customerdetails # without where it will remove all rows
 where custid in ('A106','A107');
 
 Select * from customerdetails;
