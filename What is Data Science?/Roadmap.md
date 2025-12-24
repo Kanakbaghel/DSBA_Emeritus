@@ -1,13 +1,9 @@
-# 📊 Data Science Roadmap (Interactive)
-
-> Click nodes in the roadmap ⤵️ and expand sections to explore topics.
-
----
-
-## 🗺️ Roadmap Overview
+# 📊 Data Science Roadmap
+-----
+__________
 
 ```mermaid
-flowchart LR
+flowchart TB
     DS[📊 Data Science Roadmap]
 
     DS --> MATH[Math & Statistics]
@@ -20,32 +16,19 @@ flowchart LR
     DS --> DEPLOY[Deployment]
     DS --> CLOUD[Platforms]
 
-    click MATH "#math"
-    click PROG "#programming"
-    click DP "#data-processing"
-    click DV "#data-visualization"
-    click ML "#machine-learning"
-    click DL "#deep-learning"
-    click GENAI "#llms-genai"
-    click DEPLOY "#deployment"
-    click CLOUD "#platforms"
-````
 
 ---
 
 ## 🧮 Math & Statistics
 
-<a id="math"></a>
-
 <details>
-<summary>📘 View Topics</summary>
+<summary>✨ Click to expand</summary>
 
-| Area           | Topics                    |
-| -------------- | ------------------------- |
-| Linear Algebra | Vectors, Matrices         |
-| Calculus       | Derivatives, Gradients    |
-| Probability    | Random Variables          |
-| Statistics     | Correlation, Distribution |
+# Topics :
+- Linear Algebra 
+- Calculus 
+- Probability 
+- Statistics
 
 </details>
 
@@ -53,15 +36,13 @@ flowchart LR
 
 ## 💻 Programming
 
-<a id="programming"></a>
-
 <details>
-<summary>📘 View Languages & Tools</summary>
+<summary>✨ Click to expand</summary>
 
-| Category        | Tools       |
-| --------------- | ----------- |
-| Languages       | Python, R   |
-| Query           | SQL         |
+| Area | Tools |
+|----|----|
+| Languages | Python, R |
+| Databases | SQL |
 | Version Control | Git, GitHub |
 
 </details>
@@ -70,17 +51,15 @@ flowchart LR
 
 ## 🧹 Data Processing
 
-<a id="data-processing"></a>
-
 <details>
-<summary>📘 View Libraries</summary>
+<summary>✨ Click to expand</summary>
 
-| Library | Use                 |
-| ------- | ------------------- |
-| Pandas  | Data manipulation   |
-| NumPy   | Numerical computing |
-| PySpark | Big data processing |
-| Polars  | Fast DataFrames     |
+| Libraries | Use | 
+|-----------|------|
+| Pandas    |Data manipulation | 
+| NumPy | Numerical computing | 
+| PySpark   |Big data processing |
+| Polars    |Fast DataFrames|
 
 </details>
 
@@ -88,10 +67,8 @@ flowchart LR
 
 ## 📊 Data Visualization
 
-<a id="data-visualization"></a>
-
 <details>
-<summary>📘 View Tools</summary>
+<summary>✨ Click to expand</summary>
 
 | Type     | Tools               |
 | -------- | ------------------- |
@@ -104,27 +81,19 @@ flowchart LR
 
 ## 🤖 Machine Learning
 
-<a id="machine-learning"></a>
-
 <details>
-<summary>📘 Expand Machine Learning</summary>
+<summary>✨ Click to expand</summary>
 
-### 📘 Theory
+**Theory**
+- Supervised Learning  
+- Unsupervised Learning  
 
-* Supervised Learning
-* Unsupervised Learning
+**Tools**
+- Scikit-learn  
+- XGBoost  
+- LightGBM  
 
-### 🛠️ Tools
-
-* Scikit-learn
-* XGBoost
-* LightGBM
-
-### 🧪 Projects
-
-* Classification
-* Regression
-* Clustering
+**Build Projects**
 
 </details>
 
@@ -132,55 +101,41 @@ flowchart LR
 
 ## 🧠 Deep Learning
 
-<a id="deep-learning"></a>
-
 <details>
-<summary>📘 Expand Deep Learning</summary>
+<summary>✨ Click to expand</summary>
 
-### 📘 Theory
+**Theory**
+- Neural Networks  
+- CNN  
+- RNN  
 
-* Neural Networks
-* CNN
-* RNN
+**Tools**
+- TensorFlow  
+- Keras  
+- PyTorch  
 
-### 🛠️ Tools
-
-* TensorFlow
-* Keras
-* PyTorch
-
-### 🧪 Projects
-
-* Image models
-* Sequence models
+**Build Projects**
 
 </details>
 
 ---
 
-## 🚀 LLMs & Generative AI
-
-<a id="llms-genai"></a>
+## 🚀 LLMs & GenAI
 
 <details>
-<summary>📘 Expand LLMs & GenAI</summary>
+<summary>✨ Click to expand</summary>
 
-### 📘 Theory
+**Theory**
+- Prompt Engineering  
+- Embeddings  
+- RAG  
 
-* Prompt Engineering
-* Embeddings
-* RAG
+**Tools**
+- OpenAI  
+- Hugging Face  
+- LangChain 
 
-### 🛠️ Tools
-
-* OpenAI
-* Hugging Face
-* LangChain
-
-### 🧪 Projects
-
-* Chatbots
-* RAG systems
+**Build Projects**
 
 </details>
 
@@ -188,15 +143,14 @@ flowchart LR
 
 ## 🚢 Deployment
 
-<a id="deployment"></a>
-
 <details>
-<summary>📘 Expand Deployment</summary>
+<summary>✨ Click to expand</summary>
 
 | Tool      | Purpose        |
 | --------- | -------------- |
 | Streamlit | App deployment |
 | MLflow    | Model tracking |
+ 
 
 </details>
 
@@ -204,16 +158,11 @@ flowchart LR
 
 ## ☁️ Platforms
 
-<a id="platforms"></a>
-
 <details>
-<summary>📘 Expand Platforms</summary>
+<summary>✨ Click to expand</summary>
 
-| Platform   |
-| ---------- |
-| AWS        |
-| Azure      |
-| Databricks |
+- AWS  
+- Azure  
+- Databricks  
 
 </details>
-
